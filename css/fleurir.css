@@ -1,0 +1,123 @@
+.readable-text{
+    color:#333 !important;
+    font-size:1.3em;
+}
+
+footer{
+    background-color:#333; color:#ccc;
+    margin-top:50px;
+}
+
+div.col-lg-5:nth-child(1) > div:nth-child(1) > p:nth-child(2) > a:nth-child(1){
+    color:#c6b069;
+}
+
+footer h6{
+    color:#ccc;
+}
+
+.team{
+    background-color:red;
+    padding:20px;
+}
+
+.forlabel{
+    background-color:#333;
+    color:#ccc;
+    padding:5px 10px;
+    margin:3px !important;
+}
+
+.mybanner{
+    height:100vh;
+    overflow:hidden;
+    position:relative;
+}
+
+.mybanner img{
+    height:100vh;
+    width:100%;
+}
+
+.banks-overlay{
+    position:absolute;
+    background-color:rgba(0,0,0,0.5);
+    width:100%;
+    height:inherit;
+    z-index:1;
+}
+
+.mybanner .carousel-inner{
+
+}
+
+.mybanner .carousel-caption{
+    bottom:22%;
+    position:absolute;
+    background-color:rgba(0,0,0,0.8);
+    padding:50px !important;
+    border-left:7px solid #fff;
+}
+
+.mybanner .carousel-caption h3{
+    font-size:3rem;
+    color:#fff;
+    font-family: "Poppins",sans-serif;
+    line-height: 1.2em !important;
+}
+
+
+.contact-page-area{
+    padding:20px 0px;
+}
+
+.m-bottom-10{
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.single-service img{
+    height: 150px !important;
+    width:100%;
+}
+
+#header #logo img{
+	width:190px !important;
+}
+
+@media screen and (max-width:768px){
+	#header #logo img{
+		width:150px !important;
+	}
+	
+    .mybanner{
+        height:70vh;
+        overflow:hidden;
+    }
+
+    .mybanner img{
+        height:70vh;
+        width:100%;
+    }
+
+    .mybanner .carousel-caption{
+        text-align: left;
+        width:100%;
+        left:0;
+        margin:0 5%;
+        bottom:20%;
+        background-color:rgba(0,0,0,0.5);
+        padding:20px !important;
+    }
+
+    .mybanner .carousel-caption h3{
+        font-size:1.3rem;
+        line-height: 1.2em !important;
+    }
+
+    .callto-action-area{
+        border-radius:0;
+        padding:5% 5% 0 5%;
+        width:100%;
+    }
+}

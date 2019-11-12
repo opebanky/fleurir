@@ -1,0 +1,3 @@
+[27-Aug-2019 16:14:31 America/Chicago] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/fleurirc/public_html/includes/team.php on line 1
+[27-Aug-2019 16:14:31 America/Chicago] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/fleurirc/public_html/includes/team.php on line 1
+[27-Aug-2019 16:14:31 America/Chicago] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/fleurirc/public_html/includes/team.php on line 1
